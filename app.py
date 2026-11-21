@@ -7,7 +7,7 @@ st.header("My First Cloud Deployment")
 
 st.write("This application is running as a cloud deployment demo.")
 
-name = st.text_input("Enter your name")
+name = st.text_input("What's your name?")
 
 if st.button("Submit"):
     if name.strip():
